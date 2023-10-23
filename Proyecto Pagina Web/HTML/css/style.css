@@ -1,0 +1,130 @@
+/* ----------- generales ------------- */
+body {
+    font-family: 'Bitter', serif;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel Decorative', serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lora', serif;
+    font-family: 'Petrona', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Spectral', serif;
+    color: #cedbdc;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Cinzel Decorative', serif;
+    color: #1c253c;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* ----------- tabla ------------- */
+table {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    /* border: 2px solid; */
+    border-color: black;
+    border-collapse: collapse;
+}
+
+th, td {
+    vertical-align: top;
+    border: 2px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 17px;
+    background-color: transparent;
+}
+
+.rowspan {
+    background: #67a5b6;
+    color: #1c253c;
+    font-size: 18px;
+}
+
+.colspan {
+    background: #67a5b6;
+    color: #1c253c;
+    font-size: 18px;
+}
+
+.año {
+    background: #96ccd5;
+    color: #1c253c;
+    font-size: 18px;
+}
+
+/* ----------- menu ------------- */
+nav {
+    text-align: center;
+    background-color: #1c253c;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #96ccd5;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #67a5b6;
+    border-radius: 10px;
+    color: #1c253c;
+}
+
+/* ----------- footer ------------- */
+.mi-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1c253c;
+    margin: 0px;
+}
+
+.texto {
+    color: #67a5b6;
+}
+
+.icono {
+    font-size: 20px;
+    color: #96ccd5;
+}
+
+/* ----------- secciones ------------- */
+.mi-seccion {
+    margin: 30px;
+    /* width: 100%; */
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec img {
+    display: flex;
+    border-radius: 10px;
+}
